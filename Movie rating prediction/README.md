@@ -1,7 +1,4 @@
-# CODSOFT
-Internship at Codsoft
-
-# 🎬 Movie Rating Prediction
+# Movie Rating Prediction
 
 This project predicts the IMDb rating of a movie based on features like genre, director, and actors using machine learning. It uses regression techniques to estimate how a movie might be rated by users or critics.
 
@@ -28,20 +25,19 @@ This project predicts the IMDb rating of a movie based on features like genre, d
 ---
 
 ## Project Structure 
-(view in code recommended)
 
-movie-rating-prediction/
-│
-├── Data/
-│   └── IMDb Movies India.csv           # Dataset used for training and testing
-│
-├── Notebooks/                      
-│    └── 01_eda.ipynb                   # Notebooks for experimenting with datas and model
-│    └── 02_preprocess&modeling.ipynb
-│
-├── src/                                # Main Python script for data cleaning, EDA, training, and evaluation
-│    └── main.py
-│
-├── requirements.txt                    # List of required Python packages
-│
-└── README.md                           # Project documentation
+### Folder/Files Explained:
+
+- `Data/IMDb Movies India.csv` → Dataset used for training and testing  
+- `src/main.py` → The core script for:
+  - Data cleaning  
+  - EDA  
+  - Training  
+  - Evaluation  
+- `Notebook/` → Jupyter Notebook for experimenting with datas and model
+  - `01_eda.ipynb`
+  - `02_preprocess&modeling.ipynb`    
+- `requirements.txt` → List of required Python packages  
+- `README.md` → Project description and instructions
+
+---
